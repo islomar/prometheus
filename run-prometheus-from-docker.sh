@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting Prometheus..."
+echo "Starting Prometheus from Docker..."
 
 
 docker build -t my-prometheus .

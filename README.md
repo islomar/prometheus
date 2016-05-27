@@ -6,6 +6,10 @@ https://prometheus.io/
 
 
 ##Installation
+###From source
+https://github.com/prometheus/prometheus/blob/0.19.1/README.md#building-from-source
+
+###From Docker
 Installing Prometheus with Docker: https://prometheus.io/docs/introduction/install/
 `docker run -p 9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus`
 `docker run -p 9090:9090 -v /prometheus-data prom/prometheus -config.file=/prometheus-data/prometheus.yml`
@@ -13,11 +17,11 @@ Installing Prometheus with Docker: https://prometheus.io/docs/introduction/insta
 
 Run on `http://localhost:9090/graph`
 
-
 docker run -p 9090:9090 -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml:rw prom/prometheus
 docker run -p 9090:9090 -v $(pwd)/prometheus-data prom/prometheus -config.file=$(pwd)/prometheus-data/prometheus.yml
 
-
+###Example targets
+https://prometheus.io/docs/introduction/getting_started/#starting-up-some-sample-targets
 
 
 ##Grafana
