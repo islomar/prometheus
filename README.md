@@ -22,6 +22,10 @@ https://prometheus.io/docs/introduction/getting_started/#starting-up-some-sample
 
 
 ##Grafana
+###Docker
+`docker pull grafana/grafana:3.0.1`
+
+###Installation using brew
 `brew install grafana/grafana/grafana`
 
 To have launchd start grafana/grafana/grafana at login:
