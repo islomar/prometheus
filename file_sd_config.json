@@ -1,0 +1,20 @@
+[
+  {
+    "targets": [ "myslave1:9100"],
+    "labels": {
+      "__meta_consul_tags": ",database,prod,"
+    }
+  },
+ {
+    "targets": [ "myhost1:9100"],
+    "labels": {
+      "__meta_consul_tags": ",prod,host"
+    }
+  },
+ {
+    "targets": [ "myhost2:9100"],
+    "labels": {
+      "__meta_consul_tags": ",host,dev,"
+    }
+  }
+]
